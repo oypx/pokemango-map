@@ -1,17 +1,12 @@
 # PokemonGo Map Query Server & Crawler Server
 
->Disclaimer: This is a POC(proof of concept) project for education purpose.
 
-![](./screenshot.png)
 
-## Demo
-http://hackjutsu.com/pokemongo-map-poc-demo/
 
 ## Data source
 All Pokemon data, which are essentially fake, are generated randomly by a [mock API](https://github.com/hackjutsu/mock_pgoapi). In principle, there is no communction between the crawlers and the real Pokemon Go servers.
 
-## System Architecture
-![](./architecture_backend.png)
+
 
 A distributed crawler system that achieves heuristic data crawling based on geographical location information, said system comprising: 
 
